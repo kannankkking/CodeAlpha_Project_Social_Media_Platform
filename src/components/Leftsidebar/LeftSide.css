@@ -1,0 +1,27 @@
+.changing{
+    background-image: url("../../assets/images/randomads1.png");
+    width: 200px;
+    height: 100px;
+   background-repeat: no-repeat;
+   animation: changing 15s infinite;
+ 
+   background-size: cover;
+   
+}
+
+@keyframes changing{
+    0%{
+        background-image:url("../../assets/images/randomads2.jpg") ;
+      
+    }
+
+    20%{
+        background-image:url("../../assets/images/randomads3.jpg") ;
+      
+    }
+
+    40%{
+        background-image:url("../../assets/images/randomads4.jpg") ;
+      
+    }
+}
